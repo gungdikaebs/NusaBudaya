@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "smallText": "MENGHIDUPKAN KEMBALI AKAR, MERAYAKAN WARISAN",
+    "title": "Portal Tradisi &\nKalender Budaya",
+    "description": "Temukan keindahan dan kekayaan budaya Nusantara. Telusuri upacara, sejarah, dan jadwal kegiatan spiritual yang penting seperti Wuku dan Sasih, terhubung dengan dimensi kepercayaan kami.",
+    "buttonText": "LIHAT JADWAL UPACARA",
+    "bgImage": "/images/hero_bg.png"
+  },
+  "features": {
+    "title": "Fitur Platform",
+    "description": "Eksplorasi wawasan dan tradisi dengan alat interaktif untuk mendukung pemahaman yang lebih baik tentang spiritualitas dan budaya Nusantara.",
+    "items": [
+      {
+        "id": "sejarah",
+        "title": "Edukasi Sejarah",
+        "description": "Modul pembelajaran interaktif yang membahas sejarah, filosofi, dan elemen penting dari berbagai tradisi dan upacara.",
+        "image": "/images/feature_dance.png",
+        "icon": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+      },
+      {
+        "id": "kalender",
+        "title": "Kalender Event Global",
+        "description": "Jadwal lengkap kegiatan upacara, odalan, dan perayaan penting yang disusun berdasarkan sistem penanggalan tradisional.",
+        "image": "/images/feature_temple.png",
+        "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+      },
+      {
+        "id": "panduan",
+        "title": "Panduan Wisatawan",
+        "description": "Informasi etiket berkunjung, lokasi upacara, aturan berbusana, dan hal-hal yang boleh/tidak boleh dilakukan oleh masyarakat umum.",
+        "image": "/images/feature_gate.png",
+        "icon": "M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+      }
+    ]
+  },
+  "calendar": {
+    "title": "Kalender Budaya Interaktif",
+    "description": "Jangan lewatkan kegiatan penting bulan ini. Temukan jadwal detail acara dan rencanakan partisipasi spiritual Anda.",
+    "viewDetail": "LIHAT DETAIL",
+    "viewAll": "LIHAT SEMUA EVENT"
+  },
+  "highlight": {
+    "subtitle": "NILAI HISTORIS",
+    "title": "Menjembatani Budaya",
+    "text1": "Tari Kecak bukan sekadar tarian, melainkan representasi dari ritme kehidupan dan kebersamaan masyarakat Bali. Suara \"cak\" yang bersahut-sahutan menciptakan harmoni magis yang menggugah jiwa.",
+    "text2": "Melalui seni pertunjukan seperti Kecak, kami mengundang Anda untuk masuk ke dalam cerita epik Ramayana, merasakan kekuatan doa, dan menghayati nilai kebaikan yang melampaui waktu.",
+    "button": "BACA SEJARAH LENGKAP",
+    "image": "/images/highlight_kecak.png"
+  },
+  "newsletter": {
+    "title": "Jangan Lewatkan Event",
+    "description": "Daftarkan email Anda untuk menerima pemberitahuan jadwal upacara dan informasi budaya terbaru dari kami.",
+    "placeholder": "Alamat Email Anda",
+    "subscribe": "BERLANGGANAN"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "heroTitle": "Help Center",
+  "heroSubtitle": "Find answers to your questions about traditions, visiting etiquette, and using the NusaBudaya portal.",
+  "faqTitle": "Frequently Asked Questions",
+  "etiquetteTitle": "Visiting Sacred Places Etiquette",
+  "etiquetteSubtitle": "Essential guidelines for tourists and visitors who wish to attend ceremonies or visit temples in Bali.",
+  "contactTitle": "Contact Us",
+  "contactSubtitle": "Still have questions? Don't hesitate to reach out to our team.",
+  "contactEmail": "info@nusabudaya.id",
+  "contactPhone": "+62 811 2345 6789",
+  "contactAddress": "Jl. Raya Ubud No. 88, Gianyar, Bali, Indonesia",
+  "contactFormName": "Full Name",
+  "contactFormEmail": "Email Address",
+  "contactFormMessage": "Write your message...",
+  "contactFormSend": "SEND MESSAGE",
+  "faq": [
+    {
+      "question": "What is NusaBudaya?",
+      "answer": "NusaBudaya is a digital portal that presents comprehensive information about traditions, traditional ceremonies, and the cultural calendar of the Indonesian Archipelago, particularly Bali. We aim to help the general public and tourists understand the spiritual and cultural richness of Indonesia."
+    },
+    {
+      "question": "Can I attend traditional ceremonies as a tourist?",
+      "answer": "Yes, many traditional ceremonies in Bali are open to the public. However, you must follow the dress code and applicable etiquette. Make sure to read the etiquette guidelines on this page before visiting."
+    },
+    {
+      "question": "How can I find the latest ceremony schedules?",
+      "answer": "You can visit the Event Calendar page on our portal. There, we provide ceremony and celebration schedules that are regularly updated based on the traditional Balinese calendar system (Wuku and Sasih)."
+    },
+    {
+      "question": "Is the content on this portal available in English?",
+      "answer": "Yes! We provide bilingual support (Indonesian and English). You can switch languages at any time using the ID | EN toggle located at the top of the page."
+    },
+    {
+      "question": "Can I contribute to adding tradition information?",
+      "answer": "Absolutely! We greatly appreciate contributions from the community. Please contact us through the contact form at the bottom of this page to submit your information or suggestions."
+    }
+  ],
+  "etiquette": [
+    {
+      "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+      "title": "Modest Clothing",
+      "description": "Wear clothing that covers your shoulders and knees. Use a sash (senteng) which is usually available at the temple entrance."
+    },
+    {
+      "icon": "M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636",
+      "title": "Menstruation Restriction",
+      "description": "Women who are menstruating are not allowed to enter the temple area in accordance with local customary beliefs."
+    },
+    {
+      "icon": "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z",
+      "title": "Photography Permission",
+      "description": "Always ask permission before taking photos or videos, especially during ceremony processions. Some areas may prohibit the use of cameras."
+    },
+    {
+      "icon": "M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z",
+      "title": "Keep Quiet",
+      "description": "Speak softly and avoid making noise while in the ceremony area or inside the temple."
+    },
+    {
+      "icon": "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+      "title": "Donate Wisely",
+      "description": "If you wish to make a donation (punia), do so sincerely without expecting anything in return. Ask the temple priest about the proper procedure."
+    },
+    {
+      "icon": "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
+      "title": "Respect Sacred Buildings",
+      "description": "Do not sit on shrine structures, touch offerings without permission, or enter areas marked as restricted zones."
+    }
+  ]
+}

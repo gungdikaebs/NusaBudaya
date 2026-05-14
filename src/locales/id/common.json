@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "title": "Nusa Budaya",
+    "home": "BERANDA",
+    "tradition": "TRADISI",
+    "calendar": "KALENDER EVENT",
+    "help": "BANTUAN"
+  },
+  "footer": {
+    "description": "Membangun jembatan antara masa lalu dan masa depan. Melestarikan tradisi Nusantara dan menyajikannya dalam format digital yang modern dan mudah diakses.",
+    "explore": "EKSPLORASI",
+    "about": "Tentang Kami",
+    "education": "Edukasi Tradisi",
+    "schedule": "Jadwal Upacara",
+    "guide": "Panduan Wisata",
+    "contact": "KONTAK",
+    "location": "Bali, Indonesia",
+    "copyright": "© 2026 Portal NusaBudaya. UTS - Pengembangan Portofolio.",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Ketentuan"
+  },
+  "traditionPage": {
+    "title": "Tradisi Sakral",
+    "subtitle": "Jelajahi kekayaan ragam ritual lokal, upacara, dan seni pertunjukan yang diwariskan secara turun-temurun.",
+    "sectionTitle": "Daftar Tradisi",
+    "readMore": "BACA SELENGKAPNYA"
+  },
+  "calendarPage": {
+    "title": "Kalender Budaya",
+    "subtitle": "Jangan lewatkan kegiatan sakral dan perayaan penting. Temukan jadwal lengkap dan rencanakan partisipasi spiritual Anda.",
+    "sectionTitle": "Event Mendatang",
+    "viewDetail": "LIHAT DETAIL",
+    "noEvents": "Belum ada event yang dijadwalkan."
+  },
+  "eventDetail": {
+    "about": "Tentang Upacara",
+    "schedule": "Jadwal Acara",
+    "importantInfo": "Informasi Penting",
+    "time": "Waktu Pelaksanaan",
+    "location": "Lokasi",
+    "viewMap": "Lihat Peta",
+    "dressCode": "Aturan Berbusana (Dress Code)",
+    "addToCalendar": "TAMBAH KE KALENDER",
+    "backToHome": "KEMBALI KE BERANDA",
+    "backToCalendar": "KEMBALI KE KALENDER"
+  }
+}

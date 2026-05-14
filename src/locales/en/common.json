@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "title": "Nusa Budaya",
+    "home": "HOME",
+    "tradition": "TRADITION",
+    "calendar": "EVENT CALENDAR",
+    "help": "HELP"
+  },
+  "footer": {
+    "description": "Building a bridge between the past and the future. Preserving the traditions of the Archipelago and presenting them in a modern and accessible digital format.",
+    "explore": "EXPLORE",
+    "about": "About Us",
+    "education": "Tradition Education",
+    "schedule": "Ceremony Schedule",
+    "guide": "Travel Guide",
+    "contact": "CONTACT",
+    "location": "Bali, Indonesia",
+    "copyright": "© 2026 Portal NusaBudaya. UTS - Portfolio Development.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "traditionPage": {
+    "title": "Sacred Traditions",
+    "subtitle": "Explore the rich variety of local rituals, ceremonies, and performing arts passed down through generations.",
+    "sectionTitle": "Traditions List",
+    "readMore": "READ MORE"
+  },
+  "calendarPage": {
+    "title": "Cultural Calendar",
+    "subtitle": "Don't miss sacred ceremonies and important celebrations. Find the full schedule and plan your spiritual participation.",
+    "sectionTitle": "Upcoming Events",
+    "viewDetail": "VIEW DETAILS",
+    "noEvents": "No events scheduled yet."
+  },
+  "eventDetail": {
+    "about": "About the Ceremony",
+    "schedule": "Event Schedule",
+    "importantInfo": "Important Information",
+    "time": "Time",
+    "location": "Location",
+    "viewMap": "View Map",
+    "dressCode": "Dress Code",
+    "addToCalendar": "ADD TO CALENDAR",
+    "backToHome": "BACK TO HOME",
+    "backToCalendar": "BACK TO CALENDAR"
+  }
+}

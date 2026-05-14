@@ -1,0 +1,167 @@
+[
+  {
+    "id": "tari-kecak-01",
+    "dateObj": {
+      "day": "10",
+      "month": "April",
+      "year": "2026"
+    },
+    "title": "Pementasan Tari Kecak",
+    "location": "Pura Luhur Uluwatu, Pecatu",
+    "shortDescription": "Pertunjukan tari ikonik Bali yang menampilkan paduan suara pria dan atraksi api dengan latar matahari terbenam di tebing Uluwatu.",
+    "fullDescription": "Tari Kecak di Pura Uluwatu adalah pengalaman magis yang wajib disaksikan. Dengan latar belakang matahari terbenam di Samudera Hindia, puluhan penari pria membentuk lingkaran dan melantunkan 'cak, cak, cak' secara berirama. Pertunjukan ini menceritakan kisah epik Ramayana—penculikan Dewi Sita oleh Rahwana dan penyelamatannya oleh Rama dibantu Hanoman. Klimaksnya ditutup dengan atraksi api yang spektakuler.",
+    "time": "18:00 - 19:00 WITA",
+    "dressCode": "Pakaian sopan dan rapi (menutupi bahu dan lutut). Disarankan datang 30 menit lebih awal untuk mendapatkan tempat duduk terbaik.",
+    "schedule": [
+      {
+        "time": "17:30",
+        "activity": "Pintu masuk dibuka, penonton mulai duduk"
+      },
+      {
+        "time": "18:00",
+        "activity": "Pementasan Tari Kecak dimulai"
+      },
+      {
+        "time": "18:30",
+        "activity": "Adegan klimaks: Pertarungan Rama & Rahwana"
+      },
+      {
+        "time": "18:50",
+        "activity": "Atraksi Api Hanoman"
+      }
+    ],
+    "image": "/images/highlight_kecak.png"
+  },
+  {
+    "id": "tari-calonarang-02",
+    "dateObj": {
+      "day": "17",
+      "month": "April",
+      "year": "2026"
+    },
+    "title": "Pementasan Tari Calonarang",
+    "location": "Daba Sisi Pura Griya Sabha Kukuh Kerambitan, Tabanan",
+    "shortDescription": "Pertunjukan sakral yang melambangkan pertarungan antara kebaikan dan kejahatan (Barong dan Rangda).",
+    "fullDescription": "Tari Calonarang merupakan salah satu kesenian sakral yang sangat dipercaya magisnya oleh masyarakat Bali. Menceritakan kisah janda sakti dari Dirah, pertunjukan ini bukan sekadar hiburan melainkan ritual pembersihan energi negatif desa (pecalang). Momen klimaks terjadi saat pertarungan Barong melawan Rangda diiringi oleh para pengayah kerauhan (trance).",
+    "time": "19:00 - Selesai",
+    "dressCode": "Pakaian sopan (menutupi bahu dan lutut) dan wajib menggunakan selendang. Suasana bisa menjadi tegang, tidak disarankan bagi anak kecil.",
+    "schedule": [
+      {
+        "time": "19:00",
+        "activity": "Pembukaan dengan Tari Legong"
+      },
+      {
+        "time": "20:00",
+        "activity": "Pementasan Drama Calonarang"
+      },
+      {
+        "time": "22:00",
+        "activity": "Pertarungan Barong dan Rangda"
+      },
+      {
+        "time": "23:30",
+        "activity": "Penetralan (Nunas Tirta)"
+      }
+    ],
+    "image": "/images/feature_dance.png"
+  },
+  {
+    "id": "piodalan-besakih-03",
+    "dateObj": {
+      "day": "23",
+      "month": "April",
+      "year": "2026"
+    },
+    "title": "Piodalan Pura Besakih",
+    "location": "Pura Besakih, Karangasem",
+    "shortDescription": "Perayaan hari jadi pura terbesar di Bali. Dihadiri oleh umat dari seluruh penjuru Nusantara untuk melakukan persembahyangan.",
+    "fullDescription": "Piodalan di Pura Besakih (Pura Ibu dari semua pura di Bali) adalah momen spiritual yang sangat penting. Ribuan umat Hindu dari seluruh Bali dan Nusantara akan hadir mengenakan pakaian adat putih-putih, membawa banten (sesajen) keagamaan. Suasana sangat religius, agung, dan diwarnai dengan lantunan kidung suci serta suara genta pendeta.",
+    "time": "Sepanjang Hari (06:00 - 22:00 WITA)",
+    "dressCode": "Pakaian adat Bali lengkap (kebaya putih untuk wanita, safari/baju putih dan udeng untuk pria). Dilarang bagi wanita yang sedang datang bulan untuk memasuki area pura.",
+    "schedule": [
+      {
+        "time": "06:00",
+        "activity": "Penyucian Ida Bhatara (Melasti lokal)"
+      },
+      {
+        "time": "09:00",
+        "activity": "Puncak Karya dipimpin Sulinggih"
+      },
+      {
+        "time": "12:00",
+        "activity": "Sesi Persembahyangan Gelombang 1"
+      },
+      {
+        "time": "18:00",
+        "activity": "Sesi Persembahyangan Malam (Purnama)"
+      }
+    ],
+    "image": "/images/feature_temple.png"
+  },
+  {
+    "id": "upacara-melasti-04",
+    "dateObj": {
+      "day": "15",
+      "month": "Maret",
+      "year": "2026"
+    },
+    "title": "Upacara Melasti",
+    "location": "Pantai Mertasari, Sanur",
+    "shortDescription": "Prosesi penyucian agung menuju pantai untuk membersihkan pratima dan arca suci dari semua pura di banjar.",
+    "fullDescription": "Melasti adalah upacara penyucian diri dan benda-benda sakral yang dilaksanakan beberapa hari sebelum Hari Raya Nyepi. Ribuan umat Hindu dalam pakaian putih akan berjalan beriringan menuju pantai membawa pratima (simbol dewa) dan sesajen. Air laut dipercaya mampu menyucikan segala kotoran spiritual (leteh). Prosesi ini merupakan salah satu pemandangan paling memukau dan penuh emosi dalam tradisi Bali.",
+    "time": "06:00 - 14:00 WITA",
+    "dressCode": "Pakaian adat Bali lengkap berwarna putih. Wajib menggunakan selendang dan udeng (untuk pria). Dilarang bagi wanita yang sedang datang bulan.",
+    "schedule": [
+      {
+        "time": "06:00",
+        "activity": "Berkumpul di Pura Desa masing-masing"
+      },
+      {
+        "time": "07:30",
+        "activity": "Prosesi arak-arakan menuju pantai"
+      },
+      {
+        "time": "09:00",
+        "activity": "Puncak Upacara Melasti di tepi laut"
+      },
+      {
+        "time": "12:00",
+        "activity": "Prosesi kembali ke Pura dan Persembahyangan"
+      }
+    ],
+    "image": "/images/event_melasti.png"
+  },
+  {
+    "id": "pawai-ogoh-ogoh-05",
+    "dateObj": {
+      "day": "18",
+      "month": "Maret",
+      "year": "2026"
+    },
+    "title": "Pawai Ogoh-Ogoh (Pengerupukan)",
+    "location": "Jalan Utama Denpasar, Bali",
+    "shortDescription": "Parade patung raksasa Bhuta Kala yang spektakuler di malam sebelum Nyepi sebagai simbol pengusiran energi negatif.",
+    "fullDescription": "Pawai Ogoh-Ogoh adalah acara paling meriah dan dinanti-nantikan oleh seluruh masyarakat Bali, terutama kaum muda. Ogoh-ogoh adalah patung raksasa dari bambu dan kertas yang menggambarkan Bhuta Kala (makhluk jahat). Setiap banjar berlomba-lomba membuat ogoh-ogoh paling spektakuler. Pada malam Pengerupukan, patung-patung ini diarak keliling desa diiringi gamelan bleganjur yang menggelegar, lalu dibakar sebagai simbol mengusir segala sifat buruk dari alam semesta.",
+    "time": "17:00 - 23:00 WITA",
+    "dressCode": "Pakaian kasual, namun tetap sopan. Gunakan alas kaki yang nyaman karena akan banyak berjalan kaki. Waspada terhadap keramaian.",
+    "schedule": [
+      {
+        "time": "17:00",
+        "activity": "Persiapan dan dekorasi akhir ogoh-ogoh"
+      },
+      {
+        "time": "18:30",
+        "activity": "Arak-arakan dimulai dari masing-masing banjar"
+      },
+      {
+        "time": "20:00",
+        "activity": "Puncak parade di Catur Muka (Patung Tugu)"
+      },
+      {
+        "time": "22:00",
+        "activity": "Pembakaran Ogoh-Ogoh"
+      }
+    ],
+    "image": "/images/event_ogoh_ogoh.png"
+  }
+]

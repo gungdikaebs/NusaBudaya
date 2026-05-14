@@ -1,0 +1,167 @@
+[
+  {
+    "id": "tari-kecak-01",
+    "dateObj": {
+      "day": "10",
+      "month": "April",
+      "year": "2026"
+    },
+    "title": "Kecak Dance Performance",
+    "location": "Luhur Uluwatu Temple, Pecatu",
+    "shortDescription": "Bali's iconic dance performance featuring a male vocal choir and fire attraction set against the sunset at the Uluwatu cliff.",
+    "fullDescription": "The Kecak Dance at Uluwatu Temple is a magical experience that must be witnessed. With the backdrop of the sunset over the Indian Ocean, dozens of male dancers form a circle and chant 'cak, cak, cak' rhythmically. This performance tells the epic Ramayana story—the abduction of Dewi Sita by Ravana and her rescue by Rama aided by Hanuman. The climax concludes with a spectacular fire attraction.",
+    "time": "06:00 PM - 07:00 PM WITA",
+    "dressCode": "Neat and modest clothing (covering shoulders and knees). Arriving 30 minutes early is recommended to secure the best seats.",
+    "schedule": [
+      {
+        "time": "05:30 PM",
+        "activity": "Gates open, audience begins seating"
+      },
+      {
+        "time": "06:00 PM",
+        "activity": "Kecak Dance performance begins"
+      },
+      {
+        "time": "06:30 PM",
+        "activity": "Climax: Battle of Rama & Ravana"
+      },
+      {
+        "time": "06:50 PM",
+        "activity": "Hanuman Fire Attraction"
+      }
+    ],
+    "image": "/images/highlight_kecak.png"
+  },
+  {
+    "id": "tari-calonarang-02",
+    "dateObj": {
+      "day": "17",
+      "month": "April",
+      "year": "2026"
+    },
+    "title": "Calonarang Dance Performance",
+    "location": "Daba Sisi Pura Griya Sabha Kukuh Kerambitan, Tabanan",
+    "shortDescription": "A sacred performance symbolizing the battle between good and evil (Barong and Rangda).",
+    "fullDescription": "The Calonarang dance is a sacred art form whose magic is deeply trusted by the Balinese people. Telling the story of the powerful widow of Dirah, this performance is not merely entertainment but a ritual to cleanse the village of negative energy. The climax occurs during the battle between Barong and Rangda, accompanied by performers in a state of trance.",
+    "time": "07:00 PM - Onwards",
+    "dressCode": "Modest clothing (covering shoulders and knees) and a sash is mandatory. The atmosphere can become intense; not recommended for young children.",
+    "schedule": [
+      {
+        "time": "07:00 PM",
+        "activity": "Opening with Legong Dance"
+      },
+      {
+        "time": "08:00 PM",
+        "activity": "Calonarang Drama Performance"
+      },
+      {
+        "time": "10:00 PM",
+        "activity": "Battle of Barong and Rangda"
+      },
+      {
+        "time": "11:30 PM",
+        "activity": "Neutralization (Nunas Tirta)"
+      }
+    ],
+    "image": "/images/feature_dance.png"
+  },
+  {
+    "id": "piodalan-besakih-03",
+    "dateObj": {
+      "day": "23",
+      "month": "April",
+      "year": "2026"
+    },
+    "title": "Besakih Temple Anniversary",
+    "location": "Pura Besakih, Karangasem",
+    "shortDescription": "The anniversary celebration of the largest temple in Bali. Attended by devotees from all over the Archipelago for prayers.",
+    "fullDescription": "The anniversary (Piodalan) at Besakih Temple (the Mother Temple of all temples in Bali) is a highly significant spiritual moment. Thousands of Hindus from across Bali and the Archipelago will attend wearing traditional white attire, carrying religious offerings (banten). The atmosphere is highly religious, majestic, and colored by the chanting of sacred hymns and the sound of the priest's bell.",
+    "time": "All Day (06:00 AM - 10:00 PM WITA)",
+    "dressCode": "Full traditional Balinese dress (white kebaya for women, white safari shirt and udeng for men). Women who are menstruating are strictly forbidden from entering the temple area.",
+    "schedule": [
+      {
+        "time": "06:00 AM",
+        "activity": "Purification of Deities (Local Melasti)"
+      },
+      {
+        "time": "09:00 AM",
+        "activity": "Main Ceremony led by High Priest"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "First Wave of Prayer Session"
+      },
+      {
+        "time": "06:00 PM",
+        "activity": "Evening Prayer Session (Full Moon)"
+      }
+    ],
+    "image": "/images/feature_temple.png"
+  },
+  {
+    "id": "upacara-melasti-04",
+    "dateObj": {
+      "day": "15",
+      "month": "March",
+      "year": "2026"
+    },
+    "title": "Melasti Ceremony",
+    "location": "Mertasari Beach, Sanur",
+    "shortDescription": "A grand purification procession to the beach to cleanse sacred relics and statues from all village temples.",
+    "fullDescription": "Melasti is a purification ceremony for oneself and sacred objects, held several days before the Nyepi (Day of Silence). Thousands of Hindus in white attire will walk in procession toward the beach carrying pratima (deity symbols) and offerings. Seawater is believed to be able to purify all spiritual impurities (leteh). This procession is one of the most stunning and emotionally moving sights in Balinese tradition.",
+    "time": "06:00 AM - 02:00 PM WITA",
+    "dressCode": "Full white traditional Balinese attire. Sash and udeng (for men) are mandatory. Women who are menstruating are not allowed to participate.",
+    "schedule": [
+      {
+        "time": "06:00 AM",
+        "activity": "Gather at respective Village Temple"
+      },
+      {
+        "time": "07:30 AM",
+        "activity": "Procession march toward the beach"
+      },
+      {
+        "time": "09:00 AM",
+        "activity": "Main Melasti Ceremony at the seashore"
+      },
+      {
+        "time": "12:00 PM",
+        "activity": "Procession return to Temple and Prayer"
+      }
+    ],
+    "image": "/images/event_melasti.png"
+  },
+  {
+    "id": "pawai-ogoh-ogoh-05",
+    "dateObj": {
+      "day": "18",
+      "month": "March",
+      "year": "2026"
+    },
+    "title": "Ogoh-Ogoh Parade (Pengerupukan)",
+    "location": "Main Road of Denpasar, Bali",
+    "shortDescription": "A spectacular parade of giant Bhuta Kala effigies on the eve of Nyepi as a symbol of driving away negative energy.",
+    "fullDescription": "The Ogoh-Ogoh Parade is the most festive and anticipated event by all Balinese people, especially the youth. Ogoh-ogoh are giant statues made of bamboo and paper depicting Bhuta Kala (evil creatures). Each banjar (community) competes to create the most spectacular ogoh-ogoh. On the night of Pengerupukan, these statues are paraded around the village accompanied by thundering bleganjur gamelan, then burned as a symbol of driving all evil from the universe.",
+    "time": "05:00 PM - 11:00 PM WITA",
+    "dressCode": "Casual but still modest clothing. Wear comfortable footwear as there will be a lot of walking. Be wary of crowds.",
+    "schedule": [
+      {
+        "time": "05:00 PM",
+        "activity": "Final preparation and decoration of ogoh-ogoh"
+      },
+      {
+        "time": "06:30 PM",
+        "activity": "Parade begins from respective banjar"
+      },
+      {
+        "time": "08:00 PM",
+        "activity": "Main parade at Catur Muka (Tugu Monument)"
+      },
+      {
+        "time": "10:00 PM",
+        "activity": "Ogoh-Ogoh Burning Ceremony"
+      }
+    ],
+    "image": "/images/event_ogoh_ogoh.png"
+  }
+]

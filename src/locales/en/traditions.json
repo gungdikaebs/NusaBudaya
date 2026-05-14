@@ -1,0 +1,58 @@
+[
+  {
+    "id": "tari-kecak",
+    "title": "Kecak Dance: Harmony of Voice and Fire",
+    "shortDescription": "An epic performing art depicting the Ramayana story, accompanied by a vocal choir of dozens of men without musical instruments.",
+    "origin": "Bali, Indonesia (Created in the 1930s)",
+    "values": ["Spirituality", "Mutual Cooperation", "Bravery", "Focus"],
+    "heroImage": "/images/highlight_kecak.png",
+    "paragraphs": [
+      "The Kecak Dance is one of the most iconic arts from the Island of the Gods that does not use conventional accompanying musical instruments like the gamelan. This dance relies entirely on the harmony of human voices—the rhythmic chanting of 'Cak, cak, cak' voiced by dozens to hundreds of male dancers sitting in a circle, bare-chested, wearing black-and-white checkered cloths (poleng).",
+      "This art form was first created in the 1930s by the legendary Balinese dancer Wayan Limbak, along with the German painter Walter Spies. They adapted the sacred 'Sanghyang' ritual, where dancers enter a state of trance to communicate with ancestral spirits, and combined it with the epic Ramayana story from Hindu mythology.",
+      "The main story performed in the Kecak revolves around the abduction of Dewi Sita by Ravana, the giant king of Lanka, and her rescue attempt by Rama, assisted by Hanuman, the white monkey. The male dancers sitting in the circle serve not only as a choir but also as dynamic theatrical props—they can symbolize the monkey army, leaping flames, or even a prison.",
+      "The Kecak Dance has deep philosophical value. The circular seating pattern and repetitive vocal rhythm are believed to carry the dancers and the audience into the thin line between physical reality and the spiritual dimension. In the climax scene, Hanuman leaps through a pile of burning embers, symbolizing the absolute victory of light (goodness) over darkness (evil)."
+    ]
+  },
+  {
+    "id": "ngaben",
+    "title": "Ngaben: The Journey to Eternity",
+    "shortDescription": "The cremation ceremony of Balinese Hindus to return the elements of Panca Maha Bhuta to the universe.",
+    "origin": "Bali, Indonesia",
+    "values": ["Sincerity", "Ancestral Respect", "Cycle of Life", "Togetherness"],
+    "heroImage": "/images/feature_temple.png",
+    "paragraphs": [
+      "Ngaben is a Pitra Yadnya (respect for ancestors) ceremony that is extremely important to Hindus in Bali. Literally, this ceremony aims to release the soul from worldly bonds by cremating the body, so that the forming elements of the physical body (Panca Maha Bhuta) can return to the universe, and the soul can continue its journey towards reincarnation or achieve Moksha (union with Ida Sang Hyang Widhi Wasa).",
+      "Unlike funeral ceremonies in many other cultures that are synonymous with sobbing and sadness, Ngaben is held with a festive atmosphere. The bereaved family believes that crying will only hinder the soul's journey. Therefore, the procession of the Bade (the corpse's tower) to the setra (cemetery) is often accompanied by the loud and enthusiastic beating of the baleganjur gamelan.",
+      "The preparation for Ngaben requires a significant amount of time, energy, and cost. This is reflected in the process of making the Bade and Lembu (a cremation receptacle in the shape of a bull for the kshatriya/brahmana caste), which takes weeks and is done collaboratively (ngayah) by the local banjar residents.",
+      "The highest philosophy of Ngaben is about sincerity. Letting go of those who have passed away, and understanding that death is not an end, but a transitional phase of the soul. After the body turns to ashes, the ashes will be cast into the sea (Nganyut) as a symbol of final purification so that the soul is truly clean before returning to the lap of the Creator."
+    ]
+  },
+  {
+    "id": "makepung",
+    "title": "Makepung Buffalo Racing",
+    "shortDescription": "A thrilling harvest tradition where buffalos race with colorful gear.",
+    "origin": "Jembrana, Bali, Indonesia",
+    "values": ["Harvest Gratitude", "Joy", "Hard Work", "Farmer Solidarity"],
+    "heroImage": "/images/makepung.png",
+    "paragraphs": [
+      "Makepung is a unique tradition from Jembrana Regency, Bali, which takes the form of a water buffalo race. Derived from the word 'kepung' which means chasing, this tradition was originally a casual game played by farmers in between plowing the fields and welcoming the great harvest season.",
+      "Over time, Makepung evolved into a grand cultural festival. These racing buffalos are decorated with carved leather crowns called 'rumbing', and large bell necklaces that ring loudly as they run across the muddy dirt circuit.",
+      "In this race, a pair of buffalos will pull a wooden cart (cikar) driven by a jockey. Interestingly, the scoring system of Makepung is not only based on who reaches the finish line first, but also who can maintain distance from the opponent chasing behind them.",
+      "More than just a race, Makepung is an expression of gratitude to the Creator for an abundant harvest, as well as an event to strengthen the bonds of brotherhood among farmers. This tradition also helps increase the economic value of local buffalos in Jembrana."
+    ]
+  },
+  {
+    "id": "omed-omedan",
+    "title": "Omed-omedan: The Pull of Affection",
+    "shortDescription": "A ritual by the youth of Sesetan village held the day after Nyepi to ward off bad luck and strengthen togetherness.",
+    "origin": "Sesetan Village, Denpasar, Bali",
+    "values": ["Togetherness", "Warding off Evil", "Affection", "Joy"],
+    "heroImage": "/images/omed_omedan.png",
+    "paragraphs": [
+      "Omed-omedan, which means pulling in Balinese, is a unique tradition that can only be found in Sesetan Village, South Denpasar. This ritual is always held routinely on Ngembak Geni day, which is exactly one day after the Nyepi (Day of Silence) celebration.",
+      "This tradition involves the village's youth (sekaa teruna-teruni) who are divided into two groups: a male group and a female group. They will face each other, then on a specific signal, representatives from each group will approach each other, embrace, and in some moments, kiss each other's cheeks while being pulled back by their respective groups.",
+      "During the pulling process, other residents will splash a large amount of water towards the participants. This water splashing not only serves to cool down the rowdy atmosphere but is also believed to be a symbol of self-cleansing from impurities (leteh) after carrying out the Catur Brata Penyepian (four prohibitions of Nyepi).",
+      "It is said that this tradition began in the 17th century as an entertainment event for residents. However, one time, when this tradition was temporarily suspended, a disease outbreak attacked the village. Since then, Omed-omedan was established as a sacred ritual to ward off evil (tolak bala) and also became an event for the village youth to get to know each other and find matches."
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "smallText": "REVIVING ROOTS, CELEBRATING HERITAGE",
+    "title": "Tradition Portal &\nCultural Calendar",
+    "description": "Discover the beauty and richness of the Archipelago's culture. Explore ceremonies, history, and important spiritual activity schedules such as Wuku and Sasih, connecting with our dimension of belief.",
+    "buttonText": "VIEW CEREMONY SCHEDULE",
+    "bgImage": "/images/hero_bg.png"
+  },
+  "features": {
+    "title": "Platform Features",
+    "description": "Explore insights and traditions with interactive tools to support a better understanding of the spirituality and culture of the Archipelago.",
+    "items": [
+      {
+        "id": "sejarah",
+        "title": "History Education",
+        "description": "Interactive learning modules discussing the history, philosophy, and essential elements of various traditions and ceremonies.",
+        "image": "/images/feature_dance.png",
+        "icon": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+      },
+      {
+        "id": "kalender",
+        "title": "Global Event Calendar",
+        "description": "A complete schedule of ceremonies, temple festivals (odalan), and important celebrations organized according to the traditional calendar system.",
+        "image": "/images/feature_temple.png",
+        "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+      },
+      {
+        "id": "panduan",
+        "title": "Tourist Guide",
+        "description": "Information on visiting etiquette, ceremony locations, dress codes, and dos/don'ts for the general public.",
+        "image": "/images/feature_gate.png",
+        "icon": "M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+      }
+    ]
+  },
+  "calendar": {
+    "title": "Interactive Cultural Calendar",
+    "description": "Don't miss out on important activities this month. Find detailed event schedules and plan your spiritual participation.",
+    "viewDetail": "VIEW DETAILS",
+    "viewAll": "VIEW ALL EVENTS"
+  },
+  "highlight": {
+    "subtitle": "HISTORICAL VALUE",
+    "title": "Bridging Cultures",
+    "text1": "The Kecak dance is not just a dance, but a representation of the rhythm of life and togetherness of the Balinese people. The overlapping 'cak' sounds create a magical harmony that moves the soul.",
+    "text2": "Through performing arts like Kecak, we invite you to enter the epic story of Ramayana, feel the power of prayer, and appreciate the value of goodness that transcends time.",
+    "button": "READ FULL HISTORY",
+    "image": "/images/highlight_kecak.png"
+  },
+  "newsletter": {
+    "title": "Don't Miss an Event",
+    "description": "Register your email to receive ceremony schedule notifications and the latest cultural information from us.",
+    "placeholder": "Your Email Address",
+    "subscribe": "SUBSCRIBE"
+  }
+}

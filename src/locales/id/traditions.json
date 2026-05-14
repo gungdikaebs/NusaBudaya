@@ -1,0 +1,58 @@
+[
+  {
+    "id": "tari-kecak",
+    "title": "Tari Kecak: Harmoni Suara dan Api",
+    "shortDescription": "Seni pertunjukan epik yang menceritakan kisah Ramayana, diiringi paduan suara vokal dari puluhan pria tanpa alat musik.",
+    "origin": "Bali, Indonesia (Diciptakan pada 1930-an)",
+    "values": ["Spiritualitas", "Gotong Royong", "Keberanian", "Fokus"],
+    "heroImage": "/images/highlight_kecak.png",
+    "paragraphs": [
+      "Tari Kecak merupakan salah satu kesenian paling ikonik dari Pulau Dewata yang tidak menggunakan alat musik pengiring konvensional seperti gamelan. Tarian ini sepenuhnya bergantung pada harmoni suara manusia—seruan 'Cak, cak, cak' yang disuarakan secara berirama oleh puluhan hingga ratusan penari pria yang duduk melingkar sambil bertelanjang dada dan mengenakan kain kotak-kotak hitam-putih (poleng).",
+      "Kesenian ini pertama kali diciptakan pada dekade 1930-an oleh penari Bali legendaris, Wayan Limbak, bersama dengan pelukis asal Jerman, Walter Spies. Mereka mengadaptasi ritual sakral 'Sanghyang', di mana penari masuk ke kondisi tidak sadar (trance) untuk berkomunikasi dengan roh leluhur, dan menggabungkannya dengan kisah epik Ramayana dari mitologi Hindu.",
+      "Kisah utama yang dibawakan dalam pementasan Kecak berkisar pada penculikan Dewi Sita oleh Rahwana, raja raksasa dari Alengka, serta usaha penyelamatannya oleh Rama yang dibantu oleh Hanoman, sang kera putih. Penari pria yang duduk melingkar tidak hanya berfungsi sebagai paduan suara, melainkan juga properti teatrikal yang dinamis—mereka bisa melambangkan tentara kera, lidah api, atau bahkan penjara.",
+      "Tari Kecak memiliki nilai filosofis yang dalam. Pola duduk melingkar dan irama vokal yang repetitif dipercaya dapat membawa penari dan penontonnya ke dalam batas tipis antara realitas fisik dan dimensi spiritual. Pada adegan klimaks, Hanoman melompati tumpukan bara api yang menyala, melambangkan kemenangan mutlak cahaya (kebaikan) atas kegelapan (kejahatan)."
+    ]
+  },
+  {
+    "id": "ngaben",
+    "title": "Ngaben: Perjalanan Menuju Keabadian",
+    "shortDescription": "Upacara pembakaran jenazah umat Hindu di Bali untuk mengembalikan unsur Panca Maha Bhuta ke alam semesta.",
+    "origin": "Bali, Indonesia",
+    "values": ["Keikhlasan", "Penghormatan Leluhur", "Siklus Kehidupan", "Kebersamaan"],
+    "heroImage": "/images/feature_temple.png",
+    "paragraphs": [
+      "Ngaben adalah upacara Pitra Yadnya (penghormatan kepada leluhur) yang sangat penting bagi umat Hindu di Bali. Secara harfiah, upacara ini bertujuan untuk melepaskan roh dari belenggu keduniawian dengan membakar jenazah, sehingga unsur-unsur pembentuk tubuh fisik (Panca Maha Bhuta) dapat kembali ke alam semesta, dan roh dapat melanjutkan perjalanannya menuju reinkarnasi atau mencapai Moksha (bersatu dengan Ida Sang Hyang Widhi Wasa).",
+      "Tidak seperti upacara kematian di banyak kebudayaan lain yang identik dengan isak tangis dan kesedihan, Ngaben justru dilangsungkan dengan suasana yang semarak. Keluarga yang ditinggalkan meyakini bahwa tangisan hanya akan menghambat perjalanan roh. Oleh karena itu, arak-arakan Bade (menara wadah jenazah) menuju setra (kuburan) sering kali diiringi oleh tabuhan gamelan baleganjur yang keras dan bersemangat.",
+      "Persiapan Ngaben membutuhkan waktu, tenaga, dan biaya yang tidak sedikit. Hal ini tercermin dari proses pembuatan Bade dan Lembu (wadah pembakaran berbentuk sapi jantan untuk kaum ksatria/brahmana) yang memakan waktu berminggu-minggu dan dikerjakan secara gotong royong (ngayah) oleh warga banjar setempat.",
+      "Filosofi tertinggi dari Ngaben adalah tentang keikhlasan. Mengikhlaskan mereka yang telah pergi, dan memahami bahwa kematian bukanlah sebuah akhir, melainkan fase transisi jiwa. Setelah jenazah menjadi abu, abu tersebut akan dilarung ke laut (Nganyut) sebagai simbol penyucian terakhir agar roh benar-benar bersih sebelum kembali ke pangkuan Sang Pencipta."
+    ]
+  },
+  {
+    "id": "makepung",
+    "title": "Balap Kerbau Makepung",
+    "shortDescription": "Tradisi panen mendebarkan di mana kerbau berpacu dengan perlengkapan berwarna-warni.",
+    "origin": "Jembrana, Bali, Indonesia",
+    "values": ["Syukur Panen", "Kegembiraan", "Kerja Keras", "Solidaritas Petani"],
+    "heroImage": "/images/makepung.png",
+    "paragraphs": [
+      "Makepung adalah tradisi khas dari Kabupaten Jembrana, Bali, yang berupa perlombaan balap kerbau. Berasal dari kata 'kepung' yang berarti kejar-kejaran, tradisi ini pada awalnya adalah permainan iseng para petani di sela-sela kegiatan membajak sawah dan menyambut musim panen raya.",
+      "Seiring berjalannya waktu, Makepung berkembang menjadi festival budaya yang megah. Kerbau-kerbau pacu ini dihias sedemikian rupa dengan mahkota kulit berukir yang disebut 'rumbing', serta kalung genta besar yang akan bergemerincing nyaring saat mereka berlari melintasi sirkuit tanah berlumpur.",
+      "Dalam perlombaan ini, sepasang kerbau akan menarik sebuah gerobak kayu (cikar) yang dikemudikan oleh seorang joki. Menariknya, sistem penilaian Makepung tidak hanya berdasarkan siapa yang mencapai garis finis pertama, tetapi juga siapa yang bisa menjaga jarak dari kejaran lawan di belakangnya.",
+      "Lebih dari sekadar balapan, Makepung adalah ekspresi rasa syukur kepada Sang Pencipta atas panen yang melimpah, sekaligus ajang mempererat tali persaudaraan antar petani. Tradisi ini juga membantu meningkatkan nilai ekonomis kerbau-kerbau lokal di Jembrana."
+    ]
+  },
+  {
+    "id": "omed-omedan",
+    "title": "Omed-omedan: Tarik Ulur Kasih Sayang",
+    "shortDescription": "Ritual pemuda desa Sesetan yang diadakan sehari setelah Nyepi untuk menangkal nasib buruk dan mempererat kebersamaan.",
+    "origin": "Desa Sesetan, Denpasar, Bali",
+    "values": ["Kebersamaan", "Tolak Bala", "Kasih Sayang", "Kegembiraan"],
+    "heroImage": "/images/omed_omedan.png",
+    "paragraphs": [
+      "Omed-omedan, yang berarti tarik-menarik dalam bahasa Bali, adalah tradisi unik yang hanya bisa ditemukan di Desa Sesetan, Denpasar Selatan. Ritual ini selalu dilaksanakan secara rutin pada hari Ngembak Geni, yakni satu hari tepat setelah perayaan Hari Raya Nyepi.",
+      "Tradisi ini melibatkan sekaa teruna-teruni (pemuda-pemudi) desa yang dibagi menjadi dua kelompok: kelompok laki-laki dan kelompok perempuan. Mereka akan saling berhadapan, lalu pada aba-aba tertentu, perwakilan dari masing-masing kelompok akan saling mendekat, berpelukan, dan dalam beberapa momen, saling mengecup pipi sambil ditarik kembali oleh kelompok masing-masing.",
+      "Selama proses tarik-menarik berlangsung, warga lainnya akan menyiramkan air dalam jumlah besar ke arah peserta. Siraman air ini tidak hanya berfungsi mendinginkan suasana yang riuh, tetapi juga dipercaya sebagai simbol pembersihan diri dari kotoran (leteh) setelah melaksanakan Catur Brata Penyepian.",
+      "Konon, tradisi ini bermula pada abad ke-17 sebagai acara hiburan warga. Namun suatu ketika, saat tradisi ini sempat ditiadakan, wabah penyakit menyerang desa. Sejak saat itu, Omed-omedan ditetapkan sebagai ritual sakral untuk tolak bala (menjauhkan malapetaka) sekaligus menjadi ajang perkenalan dan perjodohan bagi muda-mudi desa."
+    ]
+  }
+]
