@@ -61,7 +61,7 @@ if (!tradition.value) {
             class=" prose prose-lg md:prose-xl max-w-none prose-p:font-serif prose-p:text-brand-brown/90 prose-p:leading-loose prose-p:mb-8">
             <p v-for="(paragraph, index) in tradition.paragraphs" :key="index"
               :class="{ 'first-letter:text-7xl first-letter:font-bold first-letter:text-brand-gold first-letter:mr-3 first-letter:float-left': index === 0 }"
-              class="text-justify leading-relaxed">
+              class="text-brand-brown/80 text-lg leading-relaxed mb-12 font-light text-justify`">
               {{ paragraph }}
             </p>
           </div>
