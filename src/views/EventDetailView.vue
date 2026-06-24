@@ -17,6 +17,45 @@ const event = computed(() => {
 if (!event.value) {
   router.push('/')
 }
+
+const addToGoogleCalendar = () => {
+  if (!event.value) return;
+
+  const { title, location, shortDescription, dateObj } = event.value;
+  
+  const monthMap = {
+    'januari': '01', 'februari': '02', 'maret': '03', 'april': '04',
+    'mei': '05', 'juni': '06', 'juli': '07', 'agustus': '08',
+    'september': '09', 'oktober': '10', 'november': '11', 'desember': '12',
+    'january': '01', 'february': '02', 'march': '03', 'may': '05',
+    'june': '06', 'july': '07', 'august': '08', 'october': '10', 'december': '12'
+  };
+
+  const month = monthMap[dateObj.month.toLowerCase()] || '01';
+  const day = dateObj.day.toString().padStart(2, '0');
+  const year = dateObj.year;
+
+  // Create start and end date (end date is next day for all-day event)
+  const startDate = new Date(`${year}-${month}-${day}`);
+  const endDate = new Date(startDate);
+  endDate.setDate(startDate.getDate() + 1);
+
+  const formatDate = (d) => {
+    return d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
+  }
+
+  const startStr = formatDate(startDate);
+  const endStr = formatDate(endDate);
+
+  const url = new URL('https://calendar.google.com/calendar/render');
+  url.searchParams.append('action', 'TEMPLATE');
+  url.searchParams.append('text', title);
+  url.searchParams.append('details', shortDescription + '\n\nWaktu: ' + event.value.time);
+  url.searchParams.append('location', location);
+  url.searchParams.append('dates', `${startStr}/${endStr}`);
+
+  window.open(url.toString(), '_blank');
+}
 </script>
 
 <template>
@@ -137,8 +176,8 @@ if (!event.value) {
               </div>
             </div>
 
-            <button
-              class="w-full mt-8 bg-brand-gold hover:bg-brand-gold-dark text-brand-brown-light py-4 rounded font-bold tracking-widest text-sm transition-colors">
+            <button @click="addToGoogleCalendar"
+              class="w-full mt-8 bg-brand-gold hover:bg-brand-gold-dark text-brand-brown-light py-4 rounded font-bold tracking-widest text-sm transition-colors cursor-pointer">
               {{ t('common.eventDetail.addToCalendar') }}
             </button>
           </div>

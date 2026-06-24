@@ -22,38 +22,83 @@ const featureRoutes = {
   kalender: '/calendar',
   panduan: '/help'
 }
+
+const scrollToFeatures = () => {
+  const featuresSection = document.getElementById('features-section');
+  if (featuresSection) {
+    featuresSection.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+  }
+}
 </script>
 
 <template>
   <main>
     <!-- Hero Section -->
-    <section class="relative h-screen min-h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
-      <!-- Background Image -->
-      <div class="absolute inset-0 z-0">
-        <img :src="hero.bgImage" alt="Balinese Temple" class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-brand-cream"></div>
+    <section class="relative h-screen min-h-[100svh] flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 overflow-hidden group">
+      <!-- Background Image with dynamic zoom -->
+      <div class="absolute inset-0 z-0 overflow-hidden">
+        <img :src="hero.bgImage" alt="Balinese Temple" class="w-full h-full object-cover scale-105 transform transition-transform duration-[20s] ease-out group-hover:scale-110" />
+        <!-- Richer gradient overlays -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-brand-cream/90"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-black/20 to-black/60 mix-blend-multiply"></div>
       </div>
 
-      <div class="relative z-10 max-w-4xl mx-auto mt-20">
-        <p class="text-brand-gold font-bold tracking-[0.2em] text-sm md:text-base mb-6 drop-shadow-md">
-          {{ hero.smallText }}
-        </p>
+      <div class="relative z-10 max-w-5xl mx-auto mt-16 sm:mt-20 flex flex-col items-center">
+        <!-- Elegant Glassmorphic Badge -->
+        <div class="inline-flex items-center gap-3 px-4 sm:px-5 py-2 rounded-full border border-brand-gold/30 bg-brand-brown/40 backdrop-blur-md mb-6 sm:mb-8 shadow-[0_0_15px_rgba(192,154,83,0.1)] transition-transform hover:scale-105">
+          <span class="relative flex h-2 sm:h-2.5 w-2 sm:w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-gold opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 sm:h-2.5 w-2 sm:w-2.5 bg-brand-gold"></span>
+          </span>
+          <p class="text-brand-gold font-medium tracking-[0.2em] text-xs sm:text-sm uppercase">
+            {{ hero.smallText }}
+          </p>
+        </div>
+        
+        <!-- Main Title -->
         <h1
-          class="text-white font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-xl whitespace-pre-line">
+          class="text-white font-serif text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] xl:text-[7rem] font-bold mb-6 sm:mb-8 leading-[1.05] drop-shadow-2xl whitespace-pre-line tracking-tight">
           {{ hero.title }}
         </h1>
-        <p class="text-white/90 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 drop-shadow-md">
+        
+        <!-- Description -->
+        <p class="text-white/90 text-base sm:text-lg md:text-xl lg:text-2xl font-light max-w-2xl mx-auto mb-10 sm:mb-12 drop-shadow-md leading-relaxed px-4 sm:px-0">
           {{ hero.description }}
         </p>
-        <router-link to="/calendar"
-          class="inline-block bg-brand-brown/80 hover:bg-brand-brown text-brand-gold border border-brand-gold/50 backdrop-blur-sm px-8 py-4 rounded-md tracking-widest text-sm font-medium transition-all">
-          {{ hero.buttonText }}
-        </router-link>
+
+        <!-- Dynamic Action Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto items-center justify-center px-4 sm:px-0">
+          <router-link to="/calendar"
+            class="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-full bg-gradient-to-r from-brand-gold to-brand-gold-dark px-8 sm:px-10 py-4 sm:py-4 font-medium text-white shadow-[0_0_30px_-5px_rgba(192,154,83,0.6)] transition-all duration-300 hover:shadow-[0_0_40px_0_rgba(192,154,83,0.8)] hover:-translate-y-1 w-full sm:w-auto">
+            <span class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></span>
+            <span class="relative tracking-widest text-sm sm:text-base uppercase font-semibold">{{ hero.buttonText }}</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 relative transition-transform duration-300 group-hover:translate-x-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </router-link>
+          
+          <button @click="scrollToFeatures"
+            class="group inline-flex items-center justify-center gap-3 rounded-full border border-white/30 bg-white/10 backdrop-blur-md px-8 sm:px-10 py-4 sm:py-4 font-medium text-white transition-all duration-300 hover:bg-white/20 hover:border-white/60 hover:-translate-y-1 w-full sm:w-auto cursor-pointer">
+             <span class="tracking-widest text-sm sm:text-base uppercase">Eksplorasi</span>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-80 sm:opacity-60 transition-opacity hover:opacity-100 hidden sm:flex cursor-pointer" @click="scrollToFeatures">
+        <span class="text-brand-brown-light text-xs sm:text-sm tracking-[0.2em] uppercase font-bold drop-shadow-md">SCROLL</span>
+        <div class="animate-bounce mt-1 bg-brand-cream/80 p-2 rounded-full backdrop-blur-sm shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand-brown" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
       </div>
     </section>
 
     <!-- Features Section -->
-    <section class="py-24 px-6 md:px-12 bg-brand-cream text-center relative z-20 -mt-10">
+    <section id="features-section" class="py-24 px-6 md:px-12 bg-brand-cream text-center relative z-20 -mt-10">
       <h2 class="font-serif text-4xl md:text-5xl font-semibold mb-4 text-brand-brown-light">{{ features.title }}</h2>
       <p class="text-brand-brown/70 max-w-2xl mx-auto mb-16 text-lg">
         {{ features.description }}
