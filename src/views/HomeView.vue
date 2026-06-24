@@ -147,8 +147,8 @@ const scrollToFeatures = () => {
 
       <div class="max-w-4xl mx-auto space-y-4">
         <!-- Dynamic Events -->
-        <div v-for="event in homeEvents" :key="event.id"
-          class="bg-white flex flex-col md:flex-row items-center justify-between p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-brand-brown/20 hover:border-brand-gold transition-colors">
+        <router-link v-for="event in homeEvents" :key="event.id" :to="`/event/${event.id}`"
+          class="bg-white flex flex-col md:flex-row items-center justify-between p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-brand-brown/20 hover:border-brand-gold transition-colors group cursor-pointer">
           <div class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10 w-full">
             <div class="text-center md:text-left min-w-[100px]">
               <span class="block text-4xl font-serif font-bold text-brand-brown-light">{{ event.dateObj.day }}</span>
@@ -156,7 +156,7 @@ const scrollToFeatures = () => {
                 event.dateObj.month }}<br />{{ event.dateObj.year }}</span>
             </div>
             <div class="flex-1 text-center md:text-left">
-              <h3 class="font-serif text-2xl font-semibold mb-2">{{ event.title }}</h3>
+              <h3 class="font-serif text-2xl font-semibold mb-2 group-hover:text-brand-gold transition-colors">{{ event.title }}</h3>
               <div
                 class="flex items-center justify-center md:justify-start gap-2 text-brand-gold text-sm mb-2 font-medium">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
@@ -171,13 +171,13 @@ const scrollToFeatures = () => {
               <p class="text-brand-brown/60 text-sm">{{ event.shortDescription }}</p>
             </div>
             <div class="mt-6 md:mt-0 flex-shrink-0">
-              <router-link :to="`/event/${event.id}`"
-                class="inline-block border border-brand-brown-light text-brand-brown-light hover:bg-brand-brown-light hover:text-white px-6 py-2 rounded text-sm tracking-widest font-semibold transition-colors">
+              <span
+                class="inline-block border border-brand-brown-light text-brand-brown-light group-hover:bg-brand-brown-light group-hover:text-white px-6 py-2 rounded text-sm tracking-widest font-semibold transition-colors">
                 {{ calendar.viewDetail }}
-              </router-link>
+              </span>
             </div>
           </div>
-        </div>
+        </router-link>
       </div>
 
       <div class="text-center mt-12">

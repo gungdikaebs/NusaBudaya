@@ -40,8 +40,8 @@ const events = computed(() => tm('events'))
 
       <!-- Event Cards -->
       <div class="grid md:grid-cols-2 gap-10">
-        <div v-for="event in events" :key="event.id"
-          class="bg-white rounded shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden flex flex-col group border border-[#EBE7D8]">
+        <router-link v-for="event in events" :key="event.id" :to="`/event/${event.id}`"
+          class="block bg-white rounded shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden flex flex-col group border border-[#EBE7D8] cursor-pointer">
 
           <!-- Image Section with Overlay Date & Title -->
           <div class="h-72 relative overflow-hidden">
@@ -97,18 +97,18 @@ const events = computed(() => tm('events'))
             <!-- Separator Line -->
             <div class="h-px w-full bg-[#EBE7D8] mb-6"></div>
 
-            <router-link :to="`/event/${event.id}`"
-              class="inline-flex items-center gap-2 text-[#6B1B1E] hover:text-[#A0282C] font-bold tracking-widest text-[11px] transition-colors group/btn">
+            <span
+              class="inline-flex items-center gap-2 text-[#6B1B1E] group-hover:text-[#A0282C] font-bold tracking-widest text-[11px] transition-colors">
               {{ t('common.calendarPage.viewDetail') }}
               <svg xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4 transform transition-transform duration-300 group-hover/btn:translate-x-1" fill="none"
+                class="h-4 w-4 transform transition-transform duration-300 group-hover:translate-x-1" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
-            </router-link>
+            </span>
           </div>
 
-        </div>
+        </router-link>
       </div>
     </section>
   </main>
