@@ -59,11 +59,21 @@ if (!tradition.value) {
           <!-- Drop cap effect for the first letter of the first paragraph -->
           <div
             class=" prose prose-lg md:prose-xl max-w-none prose-p:font-serif prose-p:text-brand-brown/90 prose-p:leading-loose prose-p:mb-8">
-            <p v-for="(paragraph, index) in tradition.paragraphs" :key="index"
-              :class="{ 'first-letter:text-7xl first-letter:font-bold first-letter:text-brand-gold first-letter:mr-3 first-letter:float-left': index === 0 }"
-              class="text-brand-brown/80 text-lg leading-relaxed mb-12 font-light text-justify`">
-              {{ paragraph }}
-            </p>
+            <template v-for="(paragraph, index) in tradition.paragraphs" :key="index">
+              <img v-if="paragraph.startsWith('[IMAGE]')" 
+                   :src="paragraph.replace('[IMAGE]', '').trim()" 
+                   class="w-full h-auto rounded-xl shadow-lg mb-12 object-cover" 
+                   alt="Ilustrasi Tradisi" />
+              <h2 v-else-if="paragraph.startsWith('[SUBHEADING]')"
+                  class="font-serif text-3xl md:text-4xl font-bold text-brand-brown-light mb-6 mt-12">
+                {{ paragraph.replace('[SUBHEADING]', '').trim() }}
+              </h2>
+              <p v-else
+                :class="{ 'first-letter:text-7xl first-letter:font-bold first-letter:text-brand-gold first-letter:mr-3 first-letter:float-left': index === 0 }"
+                class="text-brand-brown/80 text-lg leading-relaxed mb-12 font-light text-justify">
+                {{ paragraph }}
+              </p>
+            </template>
           </div>
 
           <div class="mt-16 pt-8 border-t border-brand-brown/10 flex justify-between items-center">
